@@ -11,9 +11,9 @@ public class Main {
 
         Product product = new Product();
         //product.name = "Laptop";
-        product.setName("Laptop");
+        //product.setName("Laptop");
         product.setId(1);
-        System.out.println(product.getCode());
+        System.out.println(product.getName());
 
         ProductManager productManager = new ProductManager();
         productManager.Add(product);
